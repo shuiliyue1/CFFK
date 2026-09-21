@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "cffk",
-  "compatibility_date": "2026-03-12",
+  "name": "shuiliyue-shop",
+  "compatibility_date": "2025-01-01",
   "main": "vike:server-entry",
   "send_email": [
     {
@@ -11,9 +11,9 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "cffk_db",
+      "database_name": "shuiliyue-shop",
       "migrations_dir": "database/migrations",
-      // "database_id": "6ccaa772-9379-494a-8548-7a1bb74e30da" // 一键部署必须注释/
+      // "database_id": "fcc1ab61-fc53-43bf-aae8-8ccd30f8432b" // 一键部署必须注释/
     }
   ],
   "compatibility_flags": [
